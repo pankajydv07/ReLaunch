@@ -51,24 +51,34 @@ Return a JSON object with this EXACT structure:
 export const INTERVIEW_SYSTEM = `You are an expert technical interviewer. Generate realistic, role-specific interview questions.
 Return ONLY valid JSON. No markdown, no explanation — pure JSON.`;
 
-export function interviewQuestionPrompt(role: string) {
-  return `Generate one realistic, behavioral or technical interview question for a ${role} role.
+export function interviewQuestionPrompt(role: string, previousQuestions: string[] = []) {
+  const historyContext = previousQuestions.length > 0 
+    ? `\nDo NOT ask any of these previous questions:\n${previousQuestions.map(q => `- ${q}`).join('\n')}`
+    : '';
+
+  return `Generate one realistic, behavioral or technical interview question for a ${role} role.${historyContext}
+Keep it concise and conversational, suitable for a voice interview.
 Return JSON: { "question": "Your question here?" }`;
 }
 
 export const EVALUATE_SYSTEM = `You are an expert interview coach who gives constructive, specific feedback.
 Return ONLY valid JSON. No markdown, no explanation — pure JSON.`;
 
-export function evaluateAnswerPrompt(question: string, answer: string) {
+export function evaluateAnswerPrompt(question: string, answer: string, role?: string) {
+  const roleContext = role ? ` for a ${role} role` : '';
+  
   return `Interview Question: "${question}"
 
 Candidate's Answer: "${answer}"
 
-Evaluate this answer. Return JSON:
+Evaluate this answer${roleContext}. Be constructively critical but encouraging.
+IMPORTANT: Return the score as a number between 0 and 100.
+Return JSON:
 {
-  "score": 7,
+  "score": 85,
   "feedback": "Specific, actionable feedback in 2-3 sentences.",
   "strengths": ["Point 1", "Point 2"],
-  "improvements": ["Point 1", "Point 2"]
+  "improvements": ["Point 1", "Point 2"],
+  "ideal_answer": "An example of a concise, excellent answer to this question."
 }`;
 }

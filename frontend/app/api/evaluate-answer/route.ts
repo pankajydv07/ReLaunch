@@ -4,7 +4,7 @@ import { EVALUATE_SYSTEM, evaluateAnswerPrompt } from '@/lib/prompts';
 
 export async function POST(req: NextRequest) {
   try {
-    const { question, answer } = await req.json();
+    const { question, answer, role } = await req.json();
 
     if (!question || !answer) {
       return NextResponse.json({ error: 'Missing question or answer' }, { status: 400 });
@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
         { role: 'system', content: EVALUATE_SYSTEM },
         {
           role: 'user',
-          content: [{ type: 'text', text: evaluateAnswerPrompt(question, answer) }],
+          content: [{ type: 'text', text: evaluateAnswerPrompt(question, answer, role) }],
         },
       ],
       temperature: 0.3,

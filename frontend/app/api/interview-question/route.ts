@@ -4,7 +4,7 @@ import { INTERVIEW_SYSTEM, interviewQuestionPrompt } from '@/lib/prompts';
 
 export async function POST(req: NextRequest) {
   try {
-    const { role } = await req.json();
+    const { role, previous_questions = [] } = await req.json();
 
     if (!role) {
       return NextResponse.json({ error: 'Missing role' }, { status: 400 });
@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
         { role: 'system', content: INTERVIEW_SYSTEM },
         {
           role: 'user',
-          content: [{ type: 'text', text: interviewQuestionPrompt(role) }],
+          content: [{ type: 'text', text: interviewQuestionPrompt(role, previous_questions) }],
         },
       ],
       temperature: 0.7,

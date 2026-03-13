@@ -7,6 +7,7 @@ const links = [
   { href: '/', label: 'Home' },
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/interview', label: 'Interview Coach' },
+  { href: '/voice-interview', label: '🎙️ Voice Interview' },
 ];
 
 export default function Navbar() {

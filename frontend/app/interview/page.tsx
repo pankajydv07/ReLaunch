@@ -1,4 +1,5 @@
 import InterviewCoach from '@/components/InterviewCoach';
+import Link from 'next/link';
 
 export const metadata = {
   title: 'Interview Coach — ReLaunchAI',
@@ -42,6 +43,16 @@ export default function InterviewPage() {
               <p className="text-slate-500 text-xs leading-relaxed">{item.tip}</p>
             </div>
           ))}
+        </div>
+
+        {/* Voice Interview Link */}
+        <div className="mt-8 text-center animate-fade-in-up animate-delay-300">
+          <Link 
+            href="/voice-interview"
+            className="inline-flex items-center justify-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3 rounded-full font-bold shadow-md transition-transform hover:scale-105"
+          >
+            🎙️ Start Voice Interview
+          </Link>
         </div>
       </div>
     </div>
