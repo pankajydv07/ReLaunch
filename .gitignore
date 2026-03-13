@@ -1,0 +1,39 @@
+# ─── Frontend (Next.js) ───────────────────────────────────
+node_modules/
+.next/
+out/
+dist/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tsbuildinfo
+next-env.d.ts
+
+# ─── Backend (Python / FastAPI) ───────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+.pytest_cache/
+
+# ─── Environment secrets ──────────────────────────────────
+.env
+*.env
+
+# ─── OS / Editor ──────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
