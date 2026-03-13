@@ -1,0 +1,15 @@
+{
+  "Software Tester": ["Manual Testing", "SQL", "Test Cases", "Bug Reporting"],
+  "QA Automation Engineer": ["Python", "Selenium WebDriver", "PyTest", "API Testing", "Postman", "CI/CD", "Git", "JIRA", "REST APIs", "TestNG"],
+  "Software Engineer": ["Python", "JavaScript", "Data Structures", "Algorithms", "Git", "REST APIs", "SQL", "System Design", "Docker"],
+  "Frontend Developer": ["HTML", "CSS", "JavaScript", "React.js", "TypeScript", "Git", "Responsive Design", "REST APIs", "Webpack"],
+  "Backend Developer": ["Python", "Node.js", "REST APIs", "SQL", "NoSQL", "Git", "Docker", "System Design", "Authentication"],
+  "Data Analyst": ["Python", "SQL", "Excel", "Tableau", "Power BI", "Statistics", "Data Visualization", "Pandas", "NumPy"],
+  "Data Scientist": ["Python", "Machine Learning", "SQL", "Statistics", "Scikit-learn", "TensorFlow", "Pandas", "Data Visualization", "Feature Engineering"],
+  "Product Manager": ["Product Roadmapping", "Agile", "Scrum", "User Research", "Wireframing", "Stakeholder Management", "Data Analysis", "JIRA"],
+  "Marketing Manager": ["Digital Marketing", "SEO", "Google Analytics", "Social Media Marketing", "Content Strategy", "Email Marketing", "A/B Testing"],
+  "HR Manager": ["Recruitment", "HRIS", "Performance Management", "Employee Relations", "Labor Law", "Onboarding", "Talent Development"],
+  "Project Manager": ["Agile", "Scrum", "PMP", "Risk Management", "Stakeholder Communication", "MS Project", "JIRA", "Budgeting"],
+  "Teacher": ["Curriculum Design", "Classroom Management", "Educational Technology", "Assessment", "Learning Management Systems (LMS)"],
+  "EdTech Professional": ["Instructional Design", "LMS Administration", "E-learning Development", "Content Creation", "Educational Technology", "Learning Analytics"]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Amazon Returnship",
+    "company": "Amazon",
+    "description": "Amazon's returnship program for professionals who have been away from the workforce for 2+ years. Open to all tech and business functions.",
+    "duration": "16 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://www.amazon.jobs/en/landing_pages/returnship",
+    "categories": ["Technology", "Business", "Operations"]
+  },
+  {
+    "name": "Microsoft LEAP",
+    "company": "Microsoft",
+    "description": "Microsoft's apprenticeship program for individuals returning to the tech industry after a career break.",
+    "duration": "16 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://leap.microsoft.com/",
+    "categories": ["Software Engineering", "Program Management", "Data Science"]
+  },
+  {
+    "name": "IBM Tech Re-Entry",
+    "company": "IBM",
+    "description": "IBM's returnship program offering paid projects and mentoring for professionals returning to tech after a career break.",
+    "duration": "12 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://www.ibm.com/employment/returntotech/",
+    "categories": ["Technology", "Consulting", "Data & AI"]
+  },
+  {
+    "name": "Salesforce Returnship",
+    "company": "Salesforce",
+    "description": "Salesforce's return-to-work program with mentoring and hands-on experience in cloud technology.",
+    "duration": "12–16 weeks",
+    "eligibility": "1+ year career break",
+    "link": "https://www.salesforce.com/company/careers/",
+    "categories": ["Sales", "Engineering", "Marketing", "Customer Success"]
+  },
+  {
+    "name": "Goldman Sachs Returnship",
+    "company": "Goldman Sachs",
+    "description": "A program designed for experienced professionals returning to the workforce after a career break of 2+ years.",
+    "duration": "8 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://www.goldmansachs.com/careers/students/programs/returnship/",
+    "categories": ["Finance", "Technology", "Operations"]
+  },
+  {
+    "name": "PayPal Recharge",
+    "company": "PayPal",
+    "description": "PayPal's program for returning professionals, offering mentorship and career development support.",
+    "duration": "12 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://www.paypal.com/us/webapps/mpp/jobs",
+    "categories": ["Technology", "Finance", "Product"]
+  },
+  {
+    "name": "Google Career Certificates",
+    "company": "Google",
+    "description": "Google's career certificate programs paired with job placement support for career returners.",
+    "duration": "3–6 months",
+    "eligibility": "Career changers and returners",
+    "link": "https://grow.google/certificates/",
+    "categories": ["IT Support", "Data Analytics", "Project Management", "UX Design"]
+  },
+  {
+    "name": "Accenture Back to Work",
+    "company": "Accenture",
+    "description": "Accenture's return-to-work program offering professional development and hands-on client experience.",
+    "duration": "12 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://www.accenture.com/us-en/careers",
+    "categories": ["Consulting", "Technology", "Strategy"]
+  },
+  {
+    "name": "Deloitte Encore",
+    "company": "Deloitte",
+    "description": "Deloitte's returnship program for experienced professionals looking to resume careers in professional services.",
+    "duration": "16 weeks",
+    "eligibility": "2+ year career break",
+    "link": "https://www.deloitte.com/global/en/careers.html",
+    "categories": ["Consulting", "Finance", "Technology", "Audit"]
+  },
+  {
+    "name": "Tata Consultancy Services (TCS) Rebegin",
+    "company": "Tata Consultancy Services",
+    "description": "TCS's program designed for women professionals returning to IT after a career break, offering reskilling and project experience.",
+    "duration": "12 weeks",
+    "eligibility": "Women with 2+ year career break",
+    "link": "https://www.tcs.com/careers",
+    "categories": ["Software Development", "QA Testing", "Data & Analytics", "Project Management"]
+  }
+]
