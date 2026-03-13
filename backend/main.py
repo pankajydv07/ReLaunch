@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from dotenv import load_dotenv
 
-from routes import analyze, resume, interview
+from routes import analyze, resume, interview, voice
 
 load_dotenv()
 
@@ -24,6 +24,7 @@ app.add_middleware(
 app.include_router(analyze.router)
 app.include_router(resume.router)
 app.include_router(interview.router)
+app.include_router(voice.router)
 
 
 @app.get("/")

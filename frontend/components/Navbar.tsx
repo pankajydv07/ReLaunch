@@ -8,6 +8,7 @@ const links = [
   { href: '/dashboard', label: 'Dashboard' },
   { href: '/resume', label: 'Resume' },
   { href: '/interview', label: 'Interview' },
+  { href: '/interview/voice', label: '🎤 Voice' },
 ];
 
 export default function Navbar() {

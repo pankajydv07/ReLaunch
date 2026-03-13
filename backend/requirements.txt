@@ -4,3 +4,5 @@ openai
 pdfplumber
 python-multipart
 python-dotenv
+assemblyai
+elevenlabs
