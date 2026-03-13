@@ -9,6 +9,7 @@ const links = [
   { href: '/resume', label: 'Resume' },
   { href: '/interview', label: 'Interview' },
   { href: '/interview/voice', label: '🎤 Voice' },
+  { href: '/community', label: '✦ Community' },
 ];
 
 export default function Navbar() {
